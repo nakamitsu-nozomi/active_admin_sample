@@ -9,11 +9,22 @@ ja:
           has_many: "%{record}が存在しているので削除できません"
     models:
       user: "ユーザー"
+      comment: "コメント"
+      admin_user: "管理者"
     attributes:
       user:
         name: "名前"
         age: "年齢"
         address: "住所"
+        created_at: "作成日時"
+        updated_at: "編集日時"
+      admin_user:
+        id: "会員番号"
+        email: "メールアドレス"
+        current_sign_in_at: "最新ログイン日時"
+        sign_in_count: "ログイン回数"
+        created_at: "作成日時"
+     
   date:
     abbr_day_names:
     - 日
