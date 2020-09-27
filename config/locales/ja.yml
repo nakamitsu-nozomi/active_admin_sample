@@ -1,5 +1,9 @@
 ---
 ja:
+  enums:
+    comment:
+      body: 非公開
+     
   activerecord:
     errors:
       messages:
